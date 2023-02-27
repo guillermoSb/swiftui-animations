@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7008C36429ABF69300498A5E /* 03ButtonTrigger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7008C36329ABF69300498A5E /* 03ButtonTrigger.swift */; };
+		70216CBC29A3B409004E702E /* 02GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70216CBB29A3B409004E702E /* 02GeometryReader.swift */; };
+		70216CBE29A3B55F004E702E /* 02Opacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70216CBD29A3B55F004E702E /* 02Opacity.swift */; };
 		702E5B7D299C988200256D78 /* AnimationTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E5B7C299C988200256D78 /* AnimationTemplateApp.swift */; };
 		702E5B7F299C988200256D78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E5B7E299C988200256D78 /* ContentView.swift */; };
 		702E5B81299C988300256D78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 702E5B80299C988300256D78 /* Assets.xcassets */; };
@@ -19,9 +22,24 @@
 		702E5B97299C9E3300256D78 /* 01Challenge2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E5B96299C9E3300256D78 /* 01Challenge2.swift */; };
 		702E5B9A299C9EC100256D78 /* 02ColorAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E5B99299C9EC100256D78 /* 02ColorAnimation.swift */; };
 		702E5B9C299CA04800256D78 /* 02AlignmentAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E5B9B299CA04800256D78 /* 02AlignmentAnimation.swift */; };
+		7057C5F429A70ADF0051E809 /* 02CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7057C5F329A70ADF0051E809 /* 02CornerRadius.swift */; };
+		7057C5F629A70BDF0051E809 /* 02TextAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7057C5F529A70BDF0051E809 /* 02TextAnimation.swift */; };
+		7057C5F829A70CA50051E809 /* 02TrimCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7057C5F729A70CA50051E809 /* 02TrimCircle.swift */; };
+		7057C5FA29A70EF20051E809 /* 02Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7057C5F929A70EF20051E809 /* 02Exercise.swift */; };
+		7057C5FC29A712C90051E809 /* 02ExerciseSol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7057C5FB29A712C90051E809 /* 02ExerciseSol.swift */; };
+		70638E2529AA91D800424E0C /* 02Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70638E2429AA91D800424E0C /* 02Challenge.swift */; };
+		70638E2729AA95FA00424E0C /* 02Challenge02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70638E2629AA95FA00424E0C /* 02Challenge02.swift */; };
+		707B141529AD6C450035CA26 /* 03SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707B141429AD6C450035CA26 /* 03SegmentedControl.swift */; };
+		70C0B5B729A580A1006AB717 /* 02RotationEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C0B5B629A580A1006AB717 /* 02RotationEffect.swift */; };
+		70C0B5B929A581DC006AB717 /* 02RotationEffectWithAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C0B5B829A581DC006AB717 /* 02RotationEffectWithAnchors.swift */; };
+		70C0B5BB29A5834B006AB717 /* 02Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C0B5BA29A5834B006AB717 /* 02Frame.swift */; };
+		70C0B5BD29A5843A006AB717 /* 02ScaleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C0B5BC29A5843A006AB717 /* 02ScaleEffect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7008C36329ABF69300498A5E /* 03ButtonTrigger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 03ButtonTrigger.swift; sourceTree = "<group>"; };
+		70216CBB29A3B409004E702E /* 02GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 02GeometryReader.swift; sourceTree = "<group>"; };
+		70216CBD29A3B55F004E702E /* 02Opacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 02Opacity.swift; sourceTree = "<group>"; };
 		702E5B79299C988200256D78 /* AnimationTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		702E5B7C299C988200256D78 /* AnimationTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTemplateApp.swift; sourceTree = "<group>"; };
 		702E5B7E299C988200256D78 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +53,18 @@
 		702E5B96299C9E3300256D78 /* 01Challenge2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 01Challenge2.swift; sourceTree = "<group>"; };
 		702E5B99299C9EC100256D78 /* 02ColorAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 02ColorAnimation.swift; sourceTree = "<group>"; };
 		702E5B9B299CA04800256D78 /* 02AlignmentAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 02AlignmentAnimation.swift; sourceTree = "<group>"; };
+		7057C5F329A70ADF0051E809 /* 02CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 02CornerRadius.swift; sourceTree = "<group>"; };
+		7057C5F529A70BDF0051E809 /* 02TextAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 02TextAnimation.swift; sourceTree = "<group>"; };
+		7057C5F729A70CA50051E809 /* 02TrimCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 02TrimCircle.swift; sourceTree = "<group>"; };
+		7057C5F929A70EF20051E809 /* 02Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 02Exercise.swift; sourceTree = "<group>"; };
+		7057C5FB29A712C90051E809 /* 02ExerciseSol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 02ExerciseSol.swift; sourceTree = "<group>"; };
+		70638E2429AA91D800424E0C /* 02Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 02Challenge.swift; sourceTree = "<group>"; };
+		70638E2629AA95FA00424E0C /* 02Challenge02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 02Challenge02.swift; sourceTree = "<group>"; };
+		707B141429AD6C450035CA26 /* 03SegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 03SegmentedControl.swift; sourceTree = "<group>"; };
+		70C0B5B629A580A1006AB717 /* 02RotationEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 02RotationEffect.swift; sourceTree = "<group>"; };
+		70C0B5B829A581DC006AB717 /* 02RotationEffectWithAnchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 02RotationEffectWithAnchors.swift; sourceTree = "<group>"; };
+		70C0B5BA29A5834B006AB717 /* 02Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 02Frame.swift; sourceTree = "<group>"; };
+		70C0B5BC29A5843A006AB717 /* 02ScaleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 02ScaleEffect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +78,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7008C36229ABF68200498A5E /* Chapter 03 */ = {
+			isa = PBXGroup;
+			children = (
+				7008C36329ABF69300498A5E /* 03ButtonTrigger.swift */,
+				707B141429AD6C450035CA26 /* 03SegmentedControl.swift */,
+			);
+			path = "Chapter 03";
+			sourceTree = "<group>";
+		};
 		702E5B70299C988200256D78 = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +106,7 @@
 		702E5B7B299C988200256D78 /* AnimationTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				7008C36229ABF68200498A5E /* Chapter 03 */,
 				702E5B98299C9EA200256D78 /* Chapter 02 */,
 				702E5B91299C9A7E00256D78 /* Chapter 01 */,
 				702E5B8A299C98B200256D78 /* Views */,
@@ -111,6 +151,19 @@
 			children = (
 				702E5B99299C9EC100256D78 /* 02ColorAnimation.swift */,
 				702E5B9B299CA04800256D78 /* 02AlignmentAnimation.swift */,
+				70216CBB29A3B409004E702E /* 02GeometryReader.swift */,
+				70216CBD29A3B55F004E702E /* 02Opacity.swift */,
+				70C0B5B629A580A1006AB717 /* 02RotationEffect.swift */,
+				70C0B5B829A581DC006AB717 /* 02RotationEffectWithAnchors.swift */,
+				70C0B5BA29A5834B006AB717 /* 02Frame.swift */,
+				70C0B5BC29A5843A006AB717 /* 02ScaleEffect.swift */,
+				7057C5F329A70ADF0051E809 /* 02CornerRadius.swift */,
+				7057C5F529A70BDF0051E809 /* 02TextAnimation.swift */,
+				7057C5F729A70CA50051E809 /* 02TrimCircle.swift */,
+				7057C5F929A70EF20051E809 /* 02Exercise.swift */,
+				7057C5FB29A712C90051E809 /* 02ExerciseSol.swift */,
+				70638E2429AA91D800424E0C /* 02Challenge.swift */,
+				70638E2629AA95FA00424E0C /* 02Challenge02.swift */,
 			);
 			path = "Chapter 02";
 			sourceTree = "<group>";
@@ -187,12 +240,27 @@
 			files = (
 				702E5B93299C9AAA00256D78 /* 01BasicAnimation.swift in Sources */,
 				702E5B7F299C988200256D78 /* ContentView.swift in Sources */,
+				70C0B5B729A580A1006AB717 /* 02RotationEffect.swift in Sources */,
+				7057C5FC29A712C90051E809 /* 02ExerciseSol.swift in Sources */,
 				702E5B9A299C9EC100256D78 /* 02ColorAnimation.swift in Sources */,
+				70216CBC29A3B409004E702E /* 02GeometryReader.swift in Sources */,
+				7057C5F429A70ADF0051E809 /* 02CornerRadius.swift in Sources */,
+				70C0B5BD29A5843A006AB717 /* 02ScaleEffect.swift in Sources */,
 				702E5B8C299C98C500256D78 /* TitleText.swift in Sources */,
+				70C0B5BB29A5834B006AB717 /* 02Frame.swift in Sources */,
 				702E5B97299C9E3300256D78 /* 01Challenge2.swift in Sources */,
+				70638E2729AA95FA00424E0C /* 02Challenge02.swift in Sources */,
+				70C0B5B929A581DC006AB717 /* 02RotationEffectWithAnchors.swift in Sources */,
+				7057C5F829A70CA50051E809 /* 02TrimCircle.swift in Sources */,
 				702E5B95299C9CF700256D78 /* 01Challenge.swift in Sources */,
 				702E5B9C299CA04800256D78 /* 02AlignmentAnimation.swift in Sources */,
 				702E5B8E299C990200256D78 /* SubtitleText.swift in Sources */,
+				70216CBE29A3B55F004E702E /* 02Opacity.swift in Sources */,
+				70638E2529AA91D800424E0C /* 02Challenge.swift in Sources */,
+				7057C5F629A70BDF0051E809 /* 02TextAnimation.swift in Sources */,
+				707B141529AD6C450035CA26 /* 03SegmentedControl.swift in Sources */,
+				7057C5FA29A70EF20051E809 /* 02Exercise.swift in Sources */,
+				7008C36429ABF69300498A5E /* 03ButtonTrigger.swift in Sources */,
 				702E5B90299C992F00256D78 /* BannerText.swift in Sources */,
 				702E5B7D299C988200256D78 /* AnimationTemplateApp.swift in Sources */,
 			);
